@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Registrierung – Unsere schönsten Momente</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <h1>Registrieren</h1>
+    <p>Erstellen Sie Ihr Konto und speichern Sie Ihre schönsten Erinnerungen.</p>
+   <form id="cadastroForm">
+  <input type="email" id="cadEmail" placeholder="E-Mail" required />
+  <input type="password" id="cadSenha" placeholder="Passwort" required />
+  <button type="submit">Registrieren</button>
+ </form>
+    <p id="cadastroMsg" style="color: green;"></p>
+    <p><a href="index.html">Zurück zum Login</a></p>
+  </div>
+  
+
+  <script>
+   const cadastroForm = document.getElementById('cadastroForm');
+if (cadastroForm) {
+  cadastroForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const email = document.getElementById('cadEmail').value;
+    const senha = document.getElementById('cadSenha').value;
+
+    const novoUsuario = { email, senha };
+
+    localStorage.setItem('usuario', JSON.stringify(novoUsuario));
+
+    alert("Registrierung erfolgreich!");
+    window.location.href = "index.html";
+  });
+}
+  </script>
+</body>
+</html>
