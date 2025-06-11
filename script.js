@@ -32,14 +32,14 @@ if (galeria) {
   const fotos = [
     { imagem: 'imagens/foto1.jpg', legenda: 'Hochzeit' },
     { imagem: 'imagens/foto2.jpg', legenda: 'zusamme' },
-    { imagem: 'imagens/foto3.jpg', legenda: 'das Original' },
-    { imagem: 'imagens/foto4.jpg', legenda: 'das Original' },
-    { imagem: 'imagens/foto5.jpg', legenda: 'vater' },
-    { imagem: 'imagens/foto6.jpg', legenda: 'Neue Erinnerung ✨' },
+    { imagem: 'imagens/foto3.jpg', legenda: 'namorados' },
+    { imagem: 'imagens/foto4.jpg', legenda: '1° paty ' },
+    { imagem: 'imagens/foto5.jpg', legenda: 'Venesa 1° viagem juntos' },
+    { imagem: 'imagens/foto6.jpg', legenda: 'afinidades ✨' },
     { imagem: 'imagens/foto7.jpg', legenda: 'Glücklicher Moment 😊' },
-    { imagem: 'imagens/foto8.jpg', legenda: 'No fim de semana 🌳' },
-    { imagem: 'imagens/foto9.jpg', legenda: '' },
-    { imagem: 'imagens/foto10.jpg', legenda: 'das Original' }
+    { imagem: 'imagens/foto8.jpg', legenda: '1° encontro' },
+    { imagem: 'imagens/foto9.jpg', legenda: 'tudo era so felicidade' },
+    { imagem: 'imagens/foto10.jpg', legenda: 'lua de meu' }
   ];
 
   fotos.forEach(foto => {
