@@ -39,7 +39,7 @@ if (galeria) {
     { imagem: 'imagens/foto7.jpg', legenda: 'Glücklicher Moment 😊' },
     { imagem: 'imagens/foto8.jpg', legenda: '1° Treffen' },
     { imagem: 'imagens/foto9.jpg', legenda: 'Gemeinsam sind wir glücklicher' },
-    { imagem: 'imagens/foto10.jpg', legenda: 'unsere Wochenende' }
+    { imagem: 'imagens/foto10.jpg', legenda: 'unsere Flitterwochen ' }
   ];
 
   fotos.forEach(foto => {
