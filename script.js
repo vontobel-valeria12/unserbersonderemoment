@@ -33,7 +33,7 @@ if (galeria) {
     { imagem: 'imagens/foto1.jpg', legenda: 'Hochzeit' },
     { imagem: 'imagens/foto2.jpg', legenda: 'Gemeinsam für immer' },
     { imagem: 'imagens/foto3.jpg', legenda: 'Liebe' },
-    { imagem: 'imagens/foto4.jpg', legenda: 'Unsere erste Party' },
+    { imagem: 'imagens/foto4.jpg', legenda: 'Unsere Erste Party' },
     { imagem: 'imagens/foto5.jpg', legenda: 'Unsere erste gemeinsame Reise nach Venedig' },
     { imagem: 'imagens/foto6.jpg', legenda: 'Schöne gemeinsame Erinnerungen ✨' },
     { imagem: 'imagens/foto7.jpg', legenda: 'Ein Glücklicher Moment 😊' },
