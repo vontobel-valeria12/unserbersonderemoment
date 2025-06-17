@@ -31,7 +31,7 @@ if (galeria && !localStorage.getItem('usuario')) {
 if (galeria) {
   const fotos = [
     { imagem: 'imagens/foto1.jpg', legenda: 'Hochzeit' },
-    { imagem: 'imagens/foto2.jpg', legenda: 'zusammen' },
+    { imagem: 'imagens/foto2.jpg', legenda: 'Gemeinsam für immer' },
     { imagem: 'imagens/foto3.jpg', legenda: 'Liebe' },
     { imagem: 'imagens/foto4.jpg', legenda: 'erste Paty' },
     { imagem: 'imagens/foto5.jpg', legenda: 'Venedig – erste gemeinsame Reise' },
